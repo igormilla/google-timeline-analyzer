@@ -38,11 +38,11 @@ def get_readable_date_from_ms(timestamp_ms):
 
 
 # read data
-j_file = 'data.json'
+j_file = './data/1483225200000.json'
 with open(j_file) as train_file:
     dict_train = json.load(train_file)
 
-locations = dict_train['locations']
+locations = dict_train
 
 # get weekly breakdown
 now = parse("2017-01-01T00:00:00-00:00")

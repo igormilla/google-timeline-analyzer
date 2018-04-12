@@ -102,3 +102,4 @@ ENV/
 
 # sensitive data
 data.json
+data/
